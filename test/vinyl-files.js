@@ -10,7 +10,7 @@
 var assert = require('assert');
 var File = require('vinyl');
 var matter = require('..');
-const Buffer = require('node:buffer').Buffer;
+import { Buffer } from 'node:buffer';
 
 describe('vinyl files', function() {
   it('should take a vinyl file', function() {
